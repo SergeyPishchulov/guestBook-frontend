@@ -16,7 +16,7 @@ for (const mesRecord of a) {
       document.getElementById("mes-list").innerHTML+="<li>"+mesRecord+"</li>";
 }
 document.getElementById("replica-version").innerHTML+=" = " + json['replica_version'];
-document.getElementById("replica-name").innerHTML+=" = " + json['replica_name'];
+document.getElementById("replica-name").innerHTML ="Replica name = " + json['replica_name'];
 }).catch((error) => {
       console.error('Error!:', error);
     });
